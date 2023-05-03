@@ -1,17 +1,10 @@
 import React from 'react'
-import Headers from './Headers'
-import Article from './Article'
-import Footer from './Footer'
-import { Button } from 'reactstrap'
+import Routes from './routes'
 
-
-function App(props) {
+function App() {
   return (
     <div>
-      <Headers />
-      <Article />
-      <Footer />   
-      <Button color="danger">Botão</Button>     
+      <Routes />
     </div>
     )
 }
